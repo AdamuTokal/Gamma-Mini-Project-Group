@@ -16,7 +16,7 @@ LIST OF STUDENTS IN THE GROUP
 12. FCP/CSC/18/1072 Abubakar Aliyu 
 13. FCP/CSC/18/1100 Abubakar Bala Imram 
 14. FCP/CSC/18/11O2 Emmanuel Racheal Bukola
-15. FCP/CSC/18/1108 Abdulmujibi Oyewo Adeyimi.
+15. FCP/CSC/18/1108 Abdulmujib Oyewo Adeyemi.
 
 
 #ABOUT THE PROJECT
