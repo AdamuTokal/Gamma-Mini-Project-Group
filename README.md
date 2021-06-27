@@ -12,7 +12,7 @@ LIST OF STUDENTS IN THE GROUP
 8. FCP/CSC/18/1027 Abubakar Adam Abdullahi 
 9. FCP/CSC/18/1048 Abubakar Abdullahi Hassan 
 10. FCP/CSC/18/1050 Mikaeel Abdulsalam Abdulazeez
-11. FCP/CSC/18/1057 Abdulsalam Fareed Oyindemola
+11. FCP/CSC/18/1057 Abdulsalam Fareed Oyindamola
 12. FCP/CSC/18/1072 Abubakar Aliyu 
 13. FCP/CSC/18/1100 Abubakar Bala Imram 
 14. FCP/CSC/18/11O2 Emmanuel Racheal Bukola
