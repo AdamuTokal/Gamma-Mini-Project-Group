@@ -10,4 +10,14 @@
     </form>
 
     <?php
-   
+      if(isset($_POST['showbtn'])){
+        include 'config.php';
+
+        $stu_id = $_POST['sid'];
+
+        $sql = "SELECT * FROM student WHERE sid = {$stu_id}";
+        $result = mysqli_query($conn, $sql) or die("Query Unsuccessful.");
+
+        if(mysqli_num_rows($result) > 0)  {
+          while($row = mysqli_fetch_assoc($result)){
+    ?>
