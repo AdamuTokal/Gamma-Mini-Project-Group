@@ -1,5 +1,5 @@
 # Gamma-Group-Mini-Project
-A simple Project that Implement the Basic CRUD Operation using CSS, JS and Php
+A simple Project that Implement the Basic CRUD Operation using PHP and CSS for styling
 
 LIST OF STUDENTS IN THE GAMMA GROUP:
 1. FCP/CCS/18/1016   Ahmad Yahya Abubakar
