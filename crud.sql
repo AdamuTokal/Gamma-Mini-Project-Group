@@ -24,3 +24,19 @@ CREATE TABLE `student` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
+-- Dumping data for table `student`
+--
+
+INSERT INTO `student` (`sid`, `sname`, `saddress`, `sclass`, `sphone`) VALUES
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `studentclass`
+--
+
+CREATE TABLE `studentclass` (
+  `cid` int(20) NOT NULL,
+  `cname` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
