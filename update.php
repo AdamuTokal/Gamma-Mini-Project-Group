@@ -32,7 +32,7 @@
             <input type="text" name="saddress" value="<?php echo $row['saddress']; ?>" />
         </div>
         <div class="form-group">
-        <label>Class</label>
+        <label>Department</label>
         <?php
         
         
