@@ -2,7 +2,7 @@
 include 'header.php';
 ?>
 <div id="main-content">
-    <h2>All Records</h2>
+    <h2>All Student's Records</h2>
     <?php
       include 'config.php';
 
@@ -40,7 +40,7 @@ include 'header.php';
     </table>
 
 <?php }else{
-    echo "<h2>No Record Found</h2>";
+    echo "<h2>No Student's Record Found</h2>";
   }
   mysqli_close($conn);
   ?>
