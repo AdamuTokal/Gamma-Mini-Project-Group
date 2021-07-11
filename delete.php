@@ -18,3 +18,11 @@ mysqli_close($conn);
     <form class="post-form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <div class="form-group">
             <label>Serial number</label>
+<input type="text" name="sid" />
+        </div>
+        <input class="submit" type="submit" name="deletebtn" value="Delete" />
+    </form>
+</div>
+</div>
+</body>
+</html>
