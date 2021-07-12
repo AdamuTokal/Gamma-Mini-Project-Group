@@ -7,11 +7,13 @@
 
     $stu_id = $_GET['id'];
 
- $sql ="SELECT *FROM student WHERE $id ={$stu_id}";
+ $sql ="SELECT *FROM student WHERE sid ={$stu_id}";
 
 $result =mysqli_query($conn,  $sql) or die("Query Unsuccessful.");
     
 if(mysql_num_rows($result)> 0){
 
-While($row =mysqli_fetch_assoc(result))  }
+While($row =mysqli_fetch_assoc(result)){
  ?>
+ <form class="post-form" action="updatedata.php" method="post">
+<div class="form-group">
