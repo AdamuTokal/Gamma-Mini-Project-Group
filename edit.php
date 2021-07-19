@@ -30,3 +30,36 @@ While($row =mysqli_fetch_assoc(result)){
 
 <div class="form-group">
 <label>Class</label>
+
+ <?php
+            $sql1 = "SELECT * FROM studentclass";
+            $result1 = mysqli_query($conn, $sql1) or die("Query Unsuccessful.");
+
+            if(mysqli_num_rows($result1) > 0)  {
+              echo '<select name="sclass">';
+              while($row1 = mysqli_fetch_assoc($result1)){
+                if($row['sclass'] == $row1['cid']){
+                  $select = "selected";
+                }else{
+                  $select = "";
+                }
+                echo  "<option {$select} value='{$row1['cid']}'>{$row1['cname']}</option>";
+              }
+          echo "</select>";
+        }
+            ?>
+      </div>
+      <div class="form-group">
+          <label>Phone</label>
+          <input type="text" name="sphone" value="<?php echo $row['sphone']; ?>"/>
+      </div>
+      <input class="submit" type="submit" value="Update"/>
+    </form>
+    <?php
+      }
+    }
+    ?>
+</div>
+</div>
+</body>
+</html>
